@@ -20,7 +20,7 @@ Module.register("MMM-Liquipedia-Dota2",{
 	},
 
 	notificationReceived: function(notification, payload, sender) {
-		if (notification == "ALL_MODULES_STARTED" && MM.getModules().withClass("clock").length != 1) {
+		if (notification == "ALL_MODULES_STARTED" && MM.getModules().withClass("clock").length < 1) {
 			this.sendNotification("SHOW_ALERT", { 
 				title : this.name + ": " + this.translate("CONFIG_ERROR_TITLE"),
 				message : this.translate("CONFIG_ERROR_MESSAGE")
