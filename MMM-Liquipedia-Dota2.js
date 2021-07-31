@@ -4,7 +4,7 @@ Module.register("MMM-Liquipedia-Dota2",{
 		displayCount : 5,
 		requiredProfiles: 0,
 		language: config.language,
-		sourceUrl : "https://liquipedia.net/dota2/api.php?action=parse&format=json&page=Liquipedia:Upcoming_and_ongoing_matches",
+		sourceUrl : "https://liquipedia.net/starcraft2/api.php?action=parse&format=json&page=Liquipedia:Upcoming_and_ongoing_matches",
 		requiredTeams: []
 	},
 
